@@ -2,7 +2,7 @@
 ; Adjust the bed upper and lower limits in config.g (M208 commands) to get the correct homing positions
 G91
 G1 Z4 F200
-G1 X300 Y-250 F3000 S1
+G1 X-300 Y-250 F3000 S1
 G1 X4 Y4 F600
 G1 X-10 Y-10 S1
 G90
